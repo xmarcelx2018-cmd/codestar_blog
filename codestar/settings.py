@@ -42,15 +42,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',
-    'django_summernote',
-    'about',
+
+    'cloudinary_storage',
     'django.contrib.sites',
+
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'crispy_forms',
     'crispy_bootstrap5',
+    'django_summernote',
+    'cloudinary',
+    'blog',
+    'about',
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
